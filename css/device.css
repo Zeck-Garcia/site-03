@@ -1,0 +1,9 @@
+@media (min-width: 800px){
+    .close{
+        display: none;
+    }
+
+    .menu-open{
+        display: none;
+    }
+}

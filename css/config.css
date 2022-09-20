@@ -1,0 +1,166 @@
+html{
+    scroll-behavior: smooth;
+}
+
+/* background */
+.bgc-01{
+    background: #FFEB91;
+}
+
+.bgc-02{
+    background: #124C5F;
+}
+
+.bgc-03{
+    background: #C7E7E1;
+}
+
+.bgc-04{
+    background: #1DBF73;
+}
+
+.bgc-05{
+    background: #3A8DA8;
+}
+
+.bgc-06{
+    background: #F6FAF9;
+}
+
+.bgc-07{
+    background: rgb(241, 241, 241);
+}
+
+.bgc-08{
+    background: #fff;
+}
+
+/* color */
+.font-color-01{
+    color: #979697;
+}
+
+.font-color-02{
+    color: #000;
+}
+
+.font-color-03{
+    color: #124C5F;
+}
+
+.font-color-04{
+    color: #979697;
+}
+
+.font-color-05{
+    color: #fff;
+}
+
+/* font-family */
+
+.font-family-01{
+    font-family: 'Roboto', sans-serif;    
+}
+
+.font-family-02{
+    font-family: 'Mukta', sans-serif;    
+}
+
+.font-family-03{
+    font-family: 'Rubik', sans-serif;    
+}
+
+.font-family-04{
+    font-family: 'Pangolin', cursive;
+}
+
+.font-size-01{
+    font-size: max(10vw, 100px);
+}
+
+/* body-90% */
+.body-90{
+    width: 90%;
+}
+
+.body-80{
+    width: 80%;
+}
+
+.body-70{
+    width: 70%;
+}
+
+.btn-01{
+    /* height: 50px; */
+    /* width: 190px; */
+    text-transform: uppercase;
+    font-family: 'Pangolin', cursive;
+    border: none;
+    background: #124C5F;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: 500;
+    padding: 20px 25px;
+}
+
+.btn-02{
+    height: 50px;
+    width: 190px;
+    text-transform: uppercase;
+    font-family: 'Pangolin', cursive;
+    border: solid 1px #124C5F;
+    background: #fff;
+    border-radius: 5px;
+    color: #124C5F;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+
+/* configuration products */
+
+.delivery{
+    background: url(../img/frete.png) no-repeat;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 150px;
+    height: 150px;
+}
+
+.promocao{
+    background: url(../img/promocao.png) no-repeat;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 150px;
+    height: 150px;
+}
+
+.novo{
+    background: url(../img/novo.png) no-repeat;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 150px;
+    height: 150px;
+}
+
+.page-products-group:nth-child(3n + 1){
+    background: url(../img/Vector-1.png) no-repeat center/95%;
+    background-position-y: 130px;
+}
+
+.page-products-group:nth-child(3n + 2){
+    background: url(../img/Vector-2.png) no-repeat center/95%;
+    background-position-y: 130px;
+}
+
+.page-products-group:nth-child(3n + 3){
+    background: url(../img/Vector-3.png) no-repeat center/95%;
+    background-position-y: 130px;
+}

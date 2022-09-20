@@ -1,0 +1,24 @@
+.header-page{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-logo{
+    width: 140px;
+    height: 45px;
+    margin-left: 5vw;
+}
+
+.menu{
+    margin-right: 10vw;
+}
+.menu-items{
+    padding: 0px 20px;
+}
+
+.menu-items:hover{
+    border-bottom: solid 2px #124C5F;
+}
