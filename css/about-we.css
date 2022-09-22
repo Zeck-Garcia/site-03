@@ -28,6 +28,7 @@
     border-radius: 5px;
     box-shadow: 0.5px 0.5px 5px rgb(188, 186, 186);
     /* opacity: 0.8; */
+    transition: transform 200ms ease-in-out;
 }
 
 .section-photo-group-figure-img:hover{

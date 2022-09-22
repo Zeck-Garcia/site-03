@@ -114,13 +114,23 @@
 
 .partner-brand{
     margin: auto;
-
 }
+
+.partner-band-carousel{
+    overflow: hidden; 
+}
+
+.partner-band-carousel-elements{
+     display: flex;
+     flex-flow: row;
+     justify-content: space-evenly;
+     transition: transform 400ms ease-in;
+ }
 
 .partner-brand-group{
     display: flex;
     flex-flow: row;
-    justify-content: space-between;
+    /* justify-content: space-between; */
 }
 
 .partner-brand-title{
@@ -131,7 +141,12 @@
 .partner-brand-img{
     width: 130px;
     height: 70px;
-    background: #ccc;
+    margin-left: 30px;
+}
+
+.partner-brand-img-items{
+    width: 130px;
+    height: 70px;
 }
 
 .partner-brand-btn{
@@ -141,6 +156,7 @@
     height: 50px;
     border-radius: 5px;
     box-shadow: 1px 1px 5px rgb(108, 105, 105);
+    z-index: 9;
 }
 
 .partner-brand-btn::before{
