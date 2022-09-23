@@ -1,0 +1,43 @@
+.emergency{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    display: table;
+}
+
+.emergency-group-title{
+    margin: 30px 0 10px;
+}
+
+.emergency-group-title, .emergency-group-subtitle{
+    font-size: 30px;    
+}
+
+.emergency-group-btn{
+    margin: 30px 0;
+}
+
+.about-veterinay{
+    margin: 30px auto;
+    display: flex;
+}
+
+.about-veterinay-group{
+    padding: 30px;
+}
+
+.about-veterinay-title{
+    font-size: 30px;
+}
+
+.about-veterinay-subtitle{
+    margin: 20px 0; 
+}
+
+.about-veterinay-text{
+    text-align: justify;
+}
+
+.about-veterinay-img{
+    width: 150px;
+}
