@@ -78,6 +78,27 @@ html{
     font-size: max(10vw, 100px);
 }
 
+.title-01{
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.title-02{
+    font-size: 30px;
+    font-family: 'Mukta', sans-serif; 
+}
+
+.title-03{
+    font-size: 30px;
+    font-family: 'Rubik', sans-serif; 
+}
+
+.title-04{
+    font-size: 30px;
+    font-family: 'Pangolin', cursive;
+}
+
+
 /* body-90% */
 .body-90{
     width: 90%;

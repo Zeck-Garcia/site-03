@@ -1,20 +1,23 @@
 .emergency{
-    width: 100%;
-    margin: auto;
+    padding: 15px;
     text-align: center;
-    display: table;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px #999;
 }
 
 .emergency-group-title{
-    margin: 30px 0 10px;
+    margin-bottom: 10px;
 }
 
 .emergency-group-title, .emergency-group-subtitle{
-    font-size: 30px;    
+    font-size: 20px;    
 }
 
 .emergency-group-btn{
-    margin: 30px 0;
+    margin-top: 10px;
 }
 
 .about-veterinay{
@@ -26,10 +29,6 @@
     padding: 30px;
 }
 
-.about-veterinay-title{
-    font-size: 30px;
-}
-
 .about-veterinay-subtitle{
     margin: 20px 0; 
 }
@@ -39,5 +38,67 @@
 }
 
 .about-veterinay-img{
-    width: 150px;
+    width: 250px;
+}
+
+.emergency-veterinary{
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+}
+
+.emergency-veterinary-subtitle{
+    margin: 10px 0;
+}
+
+.service-veterinary{
+    margin: auto;
+    padding: 30px 10px;
+}
+
+.service-veterinary-title{
+   text-align: center;
+   margin: 30px 0;
+}
+
+.service-veterinary-group-header{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.service-veterinary-group-galery{
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.service-veterinary-group{
+    width: 100%;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.service-veterinary-group-area-text{
+    width: 50%;
+}
+
+.service-veterinary-group-img{
+    width: 50%;
+    height: 150px;
+    background: #fff;
+    /* box-shadow: 1px 1px 5px #999; */
+}
+
+.service-veterinary-group-title{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.service-veterinary-group-text{
+
 }
