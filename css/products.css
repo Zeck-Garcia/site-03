@@ -34,7 +34,8 @@
     font-weight: 500;
 }
 
-.page-products{
+/* card products */
+/* .page-products{
     margin: auto;
     margin-top: 50px;
 }
@@ -115,3 +116,180 @@
 .page-products-group-btn{
     margin-bottom: 5px;
 }
+ */
+
+
+ /* card products 02 */
+ .page-products{
+    margin: auto;
+    margin-top: 50px;
+}
+
+.page-products-galery{
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-evenly;
+}
+
+.page-products-title-01{
+    font-size: 20px;
+    padding-bottom: 30px;
+
+}
+
+.page-products-view{
+    position: relative;
+    right: -70%;
+    top: -60px;
+}
+
+.page-products-title-02{
+    padding-bottom: 40px;
+}
+
+ .page-products-galery{
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-evenly;
+}
+
+.page-products-group{
+    min-width: 200px;
+    max-width: 200px;
+    margin-top: 30px;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+
+    background: #fff;
+
+    position: relative;
+
+    box-shadow: 0.5px 0.5px 4px rgb(206, 206, 206);
+    border-radius: 5px;
+    border: solid 0.5px transparent;
+}
+
+.page-products-group-img{
+    /* width: 130px; */
+    height: 190px;
+    /* margin-bottom: 50px; */
+    /* margin-left: 50%; */
+    /* transform: translateX(-50%); */
+}
+
+.page-products-group-info-products{
+    position: relative;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    border-top: solid 1px #ccc;
+}
+
+
+
+.page-products-group-title{
+    font-size: 22px;
+    padding: 10px;
+}
+
+.page-products-group-description{
+    font-size: 12px;
+    padding: 0 5px;
+    line-height: 17px;
+}
+
+.page-products-group-price-down{
+    color: red;
+    font-size: 12px;
+    position: absolute;
+    right: 7px;
+    bottom: 14px;
+}
+
+.page-products-group-price{
+    padding: 10px;
+    font-size: 22px;
+}
+
+.page-products-group-btn{
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.page-products-group-btn-pay{
+    height: 30px;
+    color: #fff;
+    font-weight: 600;
+    background: #1DBF73;
+    border: none;
+}
+
+.page-products-group:hover{
+    box-shadow: 1px 1px 10px #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Config of the page */
+
+/* configuration products */
+
+
+.new::after{
+    content: "Novo";
+    background: blue;
+    padding: 5px;
+    border-radius: 3px;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+}
+
+.delivery::after{
+    content: "Frete Grátis";
+    background: green;
+    padding: 5px;
+    border-radius: 3px;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+}
+
+.promocao::after{
+    content: "Promoção";
+    background: red;
+    padding: 5px;
+    border-radius: 3px;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+}
+
+
+/* .page-products-group:nth-child(3n + 1){
+    background: url(../img/Vector-1.png) no-repeat center/95%;
+    background-position-y: 130px;
+}
+
+.page-products-group:nth-child(3n + 2){
+    background: url(../img/Vector-2.png) no-repeat center/95%;
+    background-position-y: 130px;
+}
+
+.page-products-group:nth-child(3n + 3){
+    background: url(../img/Vector-3.png) no-repeat center/95%;
+    background-position-y: 130px;
+} */

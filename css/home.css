@@ -42,7 +42,7 @@
 }
 
 .service-title{
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 
 .service-group{
@@ -76,8 +76,8 @@
 }
 
 .service--items-img{
-    width: 85px;
-    height: 93px;
+    /* width: 130px; */
+    height: 150px;
     margin-bottom: 30px; 
 }
 
