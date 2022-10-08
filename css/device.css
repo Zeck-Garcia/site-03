@@ -1,3 +1,7 @@
+@media (max-width: 380px){
+
+}
+
 @media (min-width: 800px){
     .close{
         display: none;
@@ -6,4 +10,8 @@
     .menu-open{
         display: none;
     }
+}
+
+@media (max-width: 800px){
+
 }
