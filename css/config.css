@@ -129,7 +129,7 @@ html{
 
 .btn-02{
     height: 50px;
-    width: 190px;
+    /* width: 170px; */
     text-transform: uppercase;
     font-family: 'Pangolin', cursive;
     border: solid 1px #124C5F;
