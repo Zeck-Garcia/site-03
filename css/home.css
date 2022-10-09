@@ -187,10 +187,12 @@
 @media (max-width: 380px){
     .service{
         width: 90%;
+        background: yellow;
     }
     
     .service-items{
         width: 30px;
+        background: green;
     }
 
     .service-items-figure-img{
