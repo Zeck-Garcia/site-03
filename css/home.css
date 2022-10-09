@@ -76,7 +76,7 @@
 }
 
 .service-items-figure-img{
-
+    height: 130px;
 }
 
 .service-items-figure-img{
@@ -191,13 +191,13 @@
     }
     
     .service-items{
-        width: 30px;
+        width: 47%;
         background: green;
     }
 
     .service-items-figure-img{
-        width: 100%;
-        /* height: ; */
+        /* width: 100%; */
+        
         /* padding: 10px; */
     }
 
@@ -211,11 +211,12 @@
 @media (min-width: 381px) and (max-width: 799px){
     .service{
         width: 80%;
+        background: blue;
     }
     
     .service-items{
-        min-width: 100px;
-        max-width: 100px;
+        min-width: 47%;
+        background: pink;
     }
 
     .service-items-img{
