@@ -186,7 +186,6 @@
 /* device max-width: 380px */
 @media (max-width: 380px){
     .service{
-        width: 90%;
         background: yellow;
     }
     
@@ -210,7 +209,6 @@
 /* device min-width 381px and max-width: 799px */
 @media (min-width: 381px) and (max-width: 799px){
     .service{
-        width: 80%;
         background: blue;
     }
     
@@ -227,7 +225,7 @@
 /* device min-width: 800px */
 @media (min-width: 800px){
     .service{
-        width: 80%;
+ 
     }
 
     .service-items{
