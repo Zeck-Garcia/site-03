@@ -186,12 +186,12 @@
 /* device max-width: 380px */
 @media (max-width: 380px){
     .service{
-        background: yellow;
+        /* background: yellow; */
     }
     
     .service-items{
         width: 47%;
-        background: green;
+        /* background: green; */
     }
 
     .service-items-figure-img{
@@ -209,12 +209,12 @@
 /* device min-width 381px and max-width: 799px */
 @media (min-width: 381px) and (max-width: 799px){
     .service{
-        background: blue;
+        /* background: blue; */
     }
     
     .service-items{
         min-width: 47%;
-        background: pink;
+        /* background: pink; */
     }
 
     .service-items-img{
