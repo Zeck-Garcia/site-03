@@ -212,8 +212,8 @@
     }
     
     .service-items{
-        min-width: 180px;
-        max-width: 180px;
+        min-width: 100px;
+        max-width: 100px;
     }
 
     .service-items-img{
