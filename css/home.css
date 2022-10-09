@@ -75,8 +75,13 @@
     border-radius: 5px;
 }
 
-.service-items-img{
-    margin-bottom: 30px; 
+.service-items-figure-img{
+    height: 130px;
+}
+
+.service-items-figure-img{
+    margin-bottom: 30px;
+    /* height: 100%; */
 }
 
 .about{
@@ -185,11 +190,12 @@
     }
     
     .service-items{
-        width: 48%;
+        width: 47%;
     }
 
     .service-items-img{
-        height: 130px; 
+        height: 130px;
+        /* width: 100px;  */
     }
 }
 
