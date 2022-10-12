@@ -50,6 +50,7 @@
         margin-right: 15px;
         cursor: pointer;
         background: url(../img/icons8-cardápio-26.png) no-repeat center;
+        background-size: 50px 50px;
         object-fit: cover;
     }
 
