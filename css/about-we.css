@@ -91,3 +91,25 @@
     grid-row-end: 12;
 }
 
+/* device max-width: 380px */
+@media (max-width: 380px){
+    .section-photo-group{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+/* device max-width: 800px */
+@media (min-width: 381px) and (max-width: 800px){
+
+    .section-photo-group{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+/* device min-width: 800px */
+@media (min-width: 800px){
+
+
+}
