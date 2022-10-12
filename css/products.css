@@ -1,17 +1,17 @@
 /* all device */
 
-    .page-banner{
+    .banner{
         position: relative;
         width: 100%;
         /* height: 250px; */
     }
 
-    .page-banner-img{
+    .banner-img{
         position: relative;
         width: 100%;
     }
 
-    .page-banner > div{
+    .banner > div{
         position: absolute;
         left: 10%;
         top: 30%;
@@ -19,18 +19,18 @@
         display: table;
     }
 
-    .page-banner-title-first{
+    .banner-title-first{
         margin-bottom: 10px;
         text-align: center;
     }
 
-    .page-banner-title-second{
+    .banner-title-second{
         font-size: 16px;
         margin-bottom: 30px;
         text-align: left;
     }
 
-    .page-btn-span{
+    .btn-span{
         margin-left: 20px;
         font-size: 18px;
         font-weight: 500;
@@ -212,7 +212,6 @@
         font-weight: 600;
     }
 
-
     /* .page-products-group:nth-child(3n + 1){
         background: url(../img/Vector-1.png) no-repeat center/95%;
         background-position-y: 130px;
@@ -261,7 +260,7 @@
 }
 
 /* device min-width: 800px */
-@media (min-width: 800px){
+@media (min-width: 801px){
     .page-products-galery{
         /* flex-flow: wrap; */
     }

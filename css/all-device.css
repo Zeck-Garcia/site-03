@@ -1,0 +1,43 @@
+/* all device */
+
+.banner-img.-mobile{
+    /* display: none; */
+}
+
+/* device max-width: 380px */
+@media (max-width: 380px){
+
+    .banner-img{
+        display: none;
+    }
+
+    .banner-img.-mobile{
+        display: block;
+    }
+}
+
+/* device min-width: 381px and max-width: 800px */
+@media (min-width: 381px) and (max-width: 800px){
+
+    .banner-img{
+        display: none;
+    }
+
+    .banner-img.-mobile{
+        display: block;
+    }
+
+}
+
+/* device min-width: 800px */
+@media (min-width: 801px){
+
+
+    .banner-img{
+        display: block;
+    }
+
+    .banner-img.-mobile{
+        display: none;
+    }
+}
