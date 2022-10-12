@@ -11,7 +11,7 @@
 @media (max-width: 800px){
 
     .menu{
-        position: absolute;
+        position: fixed;
         top: 0;
         right: 0;
         width: 100%;
@@ -26,7 +26,7 @@
         transform: translateX(-170%);
         transition: transform 400ms ease-in-out;
         /* padding-top: 30px; */
-
+        /* overflow: hidden; */
     }
 
     .menu-items{
