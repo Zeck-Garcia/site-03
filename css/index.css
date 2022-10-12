@@ -15,10 +15,12 @@
 .specific-group-title{
     padding: 10px 0;
     margin-top: 50px;
+    text-align: center;
 }
 
 .specific-group-text{
-    margin-top: 20px;
+    margin: 20px 0 30px 0;
+    text-align: justify;
 }
 
 .specific-img{
@@ -83,10 +85,23 @@
 
 /* device max-width: 800px */
 @media (min-width: 381px) and (max-width: 800px){
+    .specific{
+        flex-direction: column;
+    }
 
+    .specific-group{
+        width: 100%;
+    }
 }
 
 /* device min-width: 800px */
 @media (min-width: 800px){
 
+    .specific{
+        flex-direction: column;
+    }
+
+    .specific-group{
+        width: 50%;
+    }
 }
