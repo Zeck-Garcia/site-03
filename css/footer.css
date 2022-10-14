@@ -58,7 +58,7 @@
 
 .payment{
     display: table;
-    width: calc(90% / 3);
+    width: 200px;
 }
 
 .payment-title{
