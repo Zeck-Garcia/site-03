@@ -73,10 +73,11 @@
 @media (min-width: 800px){
 
     .menu{
-        margin-right: 10vw;
+        display: table;
     }
 
     .menu-items{
         padding: 0px 20px;
+        font-size: 20px;
     }
 }
