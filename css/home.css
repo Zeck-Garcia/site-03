@@ -152,15 +152,18 @@
 
 .partner-brand-btn{
     border: none;
-    background: #124C5F;
-    width: 50px;
+    /* background: #124C5F; */
+    width: 57px;
     height: 50px;
-    border-radius: 5px;
+    border-radius: 15px;
     box-shadow: 1px 1px 5px rgb(108, 105, 105);
     z-index: 9;
+
+    background: url(../img/seta.png) no-repeat;
+    background-size: 50px;
 }
 
-.partner-brand-btn::before{
+/* .partner-brand-btn::before{
     content: '';
     display: block;
     box-sizing: border-box;
@@ -168,15 +171,16 @@
     height: 20px;
     border: solid 20px transparent;
     transform: translateX(10px);
-}
+} */
 
-.partner-brand-btn.-left::before{
-    border-right: solid 30px #fff;
-    margin-left: -25px;
+.partner-brand-btn.-left{
+    /* border-right: solid 30px #fff; */
+    /* margin-left: -25px; */
+    transform: rotate(180deg);
 }
 
 .partner-brand-btn.-right::before{
-    border-left: solid 30px #fff;
+    /* border-left: solid 30px #fff; */
 }
 
 .partner-brand-btn:hover{
